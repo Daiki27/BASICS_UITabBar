@@ -15,6 +15,10 @@
 		0DAF91C626185B1000ACA384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF91C426185B1000ACA384 /* LaunchScreen.storyboard */; };
 		0DAF91D126185B1000ACA384 /* BASICS_UITabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF91D026185B1000ACA384 /* BASICS_UITabBarTests.swift */; };
 		0DAF91DC26185B1000ACA384 /* BASICS_UITabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF91DB26185B1000ACA384 /* BASICS_UITabBarUITests.swift */; };
+		0DAF91FA26185D9500ACA384 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF91F926185D9500ACA384 /* FirstViewController.swift */; };
+		0DAF920226185DC300ACA384 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF920126185DC300ACA384 /* SecondViewController.swift */; };
+		0DD782702618C9A8008D40B5 /* river.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD7826F2618C9A8008D40B5 /* river.png */; };
+		0DD782752618CDE2008D40B5 /* ++UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD782742618CDE2008D40B5 /* ++UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		0DAF91D726185B1000ACA384 /* BASICS_UITabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BASICS_UITabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAF91DB26185B1000ACA384 /* BASICS_UITabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASICS_UITabBarUITests.swift; sourceTree = "<group>"; };
 		0DAF91DD26185B1000ACA384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAF91F926185D9500ACA384 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0DAF920126185DC300ACA384 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0DD7826F2618C9A8008D40B5 /* river.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = river.png; sourceTree = "<group>"; };
+		0DD782742618CDE2008D40B5 /* ++UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "++UIColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,13 @@
 				0DAF91BB26185B0600ACA384 /* SceneDelegate.swift */,
 				0DAF91BD26185B0600ACA384 /* ViewController.swift */,
 				0DAF91BF26185B0600ACA384 /* Main.storyboard */,
+				0DAF920126185DC300ACA384 /* SecondViewController.swift */,
+				0DAF91F926185D9500ACA384 /* FirstViewController.swift */,
+				0DD782742618CDE2008D40B5 /* ++UIColor.swift */,
 				0DAF91C226185B1000ACA384 /* Assets.xcassets */,
 				0DAF91C426185B1000ACA384 /* LaunchScreen.storyboard */,
 				0DAF91C726185B1000ACA384 /* Info.plist */,
+				0DD7826F2618C9A8008D40B5 /* river.png */,
 			);
 			path = BASICS_UITabBar;
 			sourceTree = "<group>";
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD782702618C9A8008D40B5 /* river.png in Resources */,
 				0DAF91C626185B1000ACA384 /* LaunchScreen.storyboard in Resources */,
 				0DAF91C326185B1000ACA384 /* Assets.xcassets in Resources */,
 				0DAF91C126185B0600ACA384 /* Main.storyboard in Resources */,
@@ -258,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAF91FA26185D9500ACA384 /* FirstViewController.swift in Sources */,
 				0DAF91BE26185B0600ACA384 /* ViewController.swift in Sources */,
 				0DAF91BA26185B0600ACA384 /* AppDelegate.swift in Sources */,
+				0DD782752618CDE2008D40B5 /* ++UIColor.swift in Sources */,
+				0DAF920226185DC300ACA384 /* SecondViewController.swift in Sources */,
 				0DAF91BC26185B0600ACA384 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
